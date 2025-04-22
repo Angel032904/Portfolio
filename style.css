@@ -812,6 +812,135 @@ p {
     border: 2px solid #14005c;
 }
 
+/* Small devices (phones) */
+@media (max-width: 576px) {
+    header {
+        padding: 20px 30px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logo {
+        font-size: 1.5em;
+    }
+
+    .navigation {
+        margin-left: 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .navigation a {
+        font-size: 1em;
+        margin-right: 20px;
+    }
+
+    .home {
+        padding: 20px 30px;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .content h2 {
+        font-size: 2em;
+    }
+
+    .content h4 {
+        font-size: 1.5em;
+    }
+
+    .btn-group {
+        margin-top: 40px;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .profile_pic img {
+        width: 250px;
+        position: static;
+        margin-top: 30px;
+    }
+
+    .about {
+        padding: 30px 20px;
+        flex-direction: column;
+    }
+
+    #contact {
+        padding: 30px 20px;
+    }
+
+    .swiper-container {
+        width: 100%;
+    }
+
+    .project-card img {
+        max-width: 90%;
+    }
+}
+
+/* Medium devices (tablets) */
+@media (max-width: 992px) {
+    header {
+        padding: 20px 50px;
+    }
+
+    .navigation {
+        margin-left: 0;
+    }
+
+    .home {
+        padding: 20px 50px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .btn-group a:nth-child(2) {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .profile_pic {
+        position: static;
+        margin-top: 40px;
+        justify-content: center;
+    }
+
+    .profile_pic img {
+        width: 300px;
+    }
+
+    .about {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+/* Large devices (small laptops/desktops) */
+@media (max-width: 1200px) {
+    .profile_pic img {
+        width: 350px;
+    }
+
+    .btn-group {
+        flex-direction: row;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .content {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .navigation a {
+        margin-right: 20px;
+    }
+}
+
 
 
 
