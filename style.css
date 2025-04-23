@@ -888,44 +888,51 @@ p {
 }
 
 @media (max-width: 480px) {
-    .content h2 {
-        font-size: 1.8em;
-    }
-    .content h4 {
-        font-size: 1.2em;
-    }
-    .btn-group a {
-        padding: 8px 20px;
-        font-size: 0.9em;
-        margin: 10px 5px;
-    }
-    .project-card img {
-        max-width: 90%;
-    }
-    .container,
-    .container1,
-    .container2,
-    .container3,
-    .container4,
-    .container5 {
-        padding: 20px;
-    }
-    .extra-images img,
-    .extra-images1 img {
-        max-width: 100%;
-    }
-    #project-title,
-    #project-title1 {
-        font-size: 1.8rem;
-    }
-    #project-description,
-    #project-description1 {
-        font-size: 1rem;
-    }
-    .btn,
-    .btn1 {
-        font-size: 0.9rem;
+    header {
         padding: 10px 20px;
+        height: auto;
+    }
+
+    .logo {
+        font-size: 1.5rem;
+    }
+
+    .navigation {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .btn-talk {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+
+    .profile_pic {
+        position: relative;
+        right: 0;
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .profile_pic img {
+        width: 180px;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .social-icons {
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .social-icons a {
+        font-size: 1rem;
     }
 }
 
