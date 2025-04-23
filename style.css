@@ -891,19 +891,25 @@ p {
     header {
         padding: 10px 20px;
         height: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
     }
 
     .logo {
         font-size: 1.5rem;
+        flex: 1;
     }
 
     .navigation {
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: center;
         align-items: center;
-        gap: 10px;
-        margin-top: 10px;
+        gap: 15px;
+        flex: 2;
+        flex-wrap: wrap;
     }
 
     .navigation a {
@@ -940,6 +946,7 @@ p {
         font-size: 1rem;
     }
 }
+
 
 
 
