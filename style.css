@@ -812,132 +812,120 @@ p {
     border: 2px solid #14005c;
 }
 
-/* Small devices (phones) */
-@media (max-width: 576px) {
+@media (max-width: 1024px) {
     header {
-        padding: 20px 30px;
+        padding: 20px 50px;
+    }
+    .home {
+        padding: 30px 50px;
+    }
+    .profile_pic {
+        right: 100px;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
         flex-direction: column;
         align-items: flex-start;
+        padding: 20px;
     }
-
-    .logo {
-        font-size: 1em;
-    }
-
     .navigation {
         margin-left: 0;
+        margin-top: 20px;
         display: flex;
-        flex-wrap: wrap;
-        gap: 7px;
-        margin-top: 7px;
-    }
-
-    .navigation a {
-        font-size: 1em;
-        margin-right: 20px;
-    }
-
-    .home {
-        padding: 20px 30px;
         flex-direction: column;
-        align-items: flex-start;
-        justify-content: center;
+        width: 100%;
     }
-
+    .navigation a {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .btn-talk {
+        margin: 20px 0;
+        width: 100%;
+        text-align: center;
+    }
+    .home {
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+        height: auto;
+    }
     .content h2 {
         font-size: 2em;
     }
-
     .content h4 {
         font-size: 1.5em;
     }
-
-    .btn-group {
-        margin-top: 40px;
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .profile_pic img {
-        width: 100px;
-        position: static;
-        margin-top: 30px;
-    }
-
-    .about {
-        padding: 30px 20px;
-        flex-direction: column;
-    }
-
-    #contact {
-        padding: 30px 20px;
-    }
-
-    .swiper-container {
-        width: 100%;
-    }
-
-    .project-card img {
-        max-width: 90%;
-    }
-}
-
-/* Medium devices (tablets) */
-@media (max-width: 992px) {
-    header {
-        padding: 20px 50px;
-    }
-
-    .navigation {
-        margin-left: 0;
-    }
-
-    .home {
-        padding: 20px 50px;
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .btn-group a:nth-child(2) {
-        margin-left: 0;
-        margin-top: 10px;
-    }
-
     .profile_pic {
-        position: static;
-        margin-top: 40px;
+        position: relative;
+        right: 0;
+        margin-top: 30px;
+        display: flex;
         justify-content: center;
     }
-
     .profile_pic img {
         width: 300px;
     }
-
     .about {
+        padding: 30px 20px;
         flex-direction: column;
-        text-align: center;
+    }
+    .about-content h2 {
+        font-size: 2em;
+    }
+    .about-content p {
+        font-size: 1em;
+    }
+    #contact {
+        padding: 30px 20px;
+    }
+    .swiper-button-prev,
+    .swiper-button-next {
+        display: none;
     }
 }
 
-/* Large devices (small laptops/desktops) */
-@media (max-width: 1200px) {
-    .profile_pic img {
-        width: 350px;
+@media (max-width: 480px) {
+    .content h2 {
+        font-size: 1.8em;
     }
-
-    .btn-group {
-        flex-direction: row;
-        justify-content: center;
-        gap: 15px;
+    .content h4 {
+        font-size: 1.2em;
     }
-
-    .content {
-        text-align: center;
-        margin: 0 auto;
+    .btn-group a {
+        padding: 8px 20px;
+        font-size: 0.9em;
+        margin: 10px 5px;
     }
-
-    .navigation a {
-        margin-right: 20px;
+    .project-card img {
+        max-width: 90%;
+    }
+    .container,
+    .container1,
+    .container2,
+    .container3,
+    .container4,
+    .container5 {
+        padding: 20px;
+    }
+    .extra-images img,
+    .extra-images1 img {
+        max-width: 100%;
+    }
+    #project-title,
+    #project-title1 {
+        font-size: 1.8rem;
+    }
+    #project-description,
+    #project-description1 {
+        font-size: 1rem;
+    }
+    .btn,
+    .btn1 {
+        font-size: 0.9rem;
+        padding: 10px 20px;
     }
 }
 
