@@ -39,6 +39,7 @@ header {
     margin-right: 40px;
     font-weight: 500;
     transition: .3s;
+    flex-direction: row;
 }
 .navigation a:hover {
     color: #14005c;
