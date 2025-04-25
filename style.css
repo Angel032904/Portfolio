@@ -894,7 +894,6 @@ p {
         height: auto;
         display: flex;
         justify-content: space-between;
-        flex-wrap: wrap;
         flex-direction: row;
     }
 
@@ -939,7 +938,7 @@ p {
         margin-top: 10px;
         display: flex;
         justify-content: center;
-        gap: 15px;
+        gap: 10px;
     }
 
     .social-icons a {
