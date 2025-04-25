@@ -919,7 +919,7 @@ p {
     }
 
     .btn-talk {
-        padding: 8px 16px;
+        padding: 4px 8px;
         font-size: 0.85rem;
     }
 
@@ -939,11 +939,11 @@ p {
         margin-top: 10px;
         display: flex;
         justify-content: center;
-        gap: 10px;
+        gap: 8px;
     }
 
     .social-icons a {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 }
 
