@@ -922,15 +922,19 @@ p {
         padding: 4px 8px;
         font-size: 0.85rem;
     }
+    .btn-group a {
+        margin: 10px 0;
+        padding: 10px 30px;
+    }
 
-    .profile_pic {
-        margin-top: 20px;
-        display: flex;
+  .profile_pic {
+        position: static;
+        margin-bottom: 20px;
         justify-content: center;
     }
 
     .profile_pic img {
-        width: 180px;
+        width: 250px;
         height: auto;
         border-radius: 10px;
     }
