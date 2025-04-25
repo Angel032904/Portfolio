@@ -22,7 +22,7 @@ header {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 .logo {
-    font-size: 2em;
+    font-size: 1.2em;
     color: #555;
     cursor: default;
 }
@@ -30,13 +30,14 @@ header {
     color: #14005c;
 }
 .navigation {
-    margin-left: -300px;
+    font-size: 1rem;
+    flex-wrap: wrap;
 }
 .navigation a {
-    font-size: 1rem;
     color: #555;
     text-decoration: none;
     margin-right: 40px;
+    margin-left: 15px;
     font-weight: 500;
     transition: .3s;
     flex-direction: row;
